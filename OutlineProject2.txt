@@ -1,0 +1,33 @@
+Class Investment:
+	Function Investment(initialInvestmentAmount, monthlyDeposit, annualInterest, numberOfYears):
+		Set initialInvestmentAmount
+		Set monthlyDeposit 
+		Set annualInterest
+		Set numberOfYears
+
+	Function displayInvestmentGrowth():
+		Display a table header
+		Set balance to initialInvestmentAmount
+
+		For each year from 1 to numberOfYears:
+		   Calculate balanceAfterGrowth as balance
+		   Calculate interest as balance times annualInterest divided by 100
+		   Add monthlyDeposit times 12 to balanceAfterGrowth
+		   Display the year, starting balance, interest, and ending balance
+		   Update balance to balanceAfterGrowth
+
+	Function displayInvestmentGrowthNoDeposit():
+		Display a table header
+		Set balance to initialInvestmentAmount
+
+		For each year from 1 to numberOfYears:
+		   Calculate balanceAfterGrowth as balance
+		   Calculate interest as balance times annualInterest divided by 100
+		   Add interest to balanceAfterGrowth
+		   Display the year, starting balance, interest, and ending balance
+		   Update balance to balanceAfterGrowth
+
+Main: 
+	Set variables to user inputs
+	Create instance of investment object with variables 
+	Run functions to display data
