@@ -31,4 +31,4 @@ This project reinforced my skills in problem-solving, code organization, and dat
 
 By following these practices, the codebase becomes more accessible for future modifications, enhancements, or adaptations to meet evolving requirements.
 
-- Thomas Christian 
+  Thomas Christian 
